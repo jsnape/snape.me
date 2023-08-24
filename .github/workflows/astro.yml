@@ -40,7 +40,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with Astro
         run: |
-          npm astro build \
+          npm run astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
