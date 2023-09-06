@@ -18,7 +18,7 @@ I prefer to fill my date tables by generating the correct stream of values from 
 
 I haven’t wrapped this in a pre-compiled component as it is so easy to do in script from. Also, I haven’t got around to generalizing the fiscal date offsets for different companies so they usually have to be custom coded.
 
-![Script Component Type](images/image_3.png)First drop a “Script Component” onto your Data Flow.
+![Script Component Type](image_3.png)First drop a “Script Component” onto your Data Flow.
 
 Select “Source” as the Script Component Type and click OK.
 
@@ -26,7 +26,7 @@ Then double-click the newly added component to edit the properties.
 
 Note that you need to add the correct output columns before adding the script or else it won’t compile.
 
-![Output Columns](images/image_61.png)
+![Output Columns](image_61.png)
 
 I’ve renamed the output here to “Dates” to help further down the Data Flow.
 
@@ -53,6 +53,6 @@ while (/\*loop though your dates\*?)
 
 The full script is in the attached sample package where I’ve also added a script destination that does nothing with the data. Attach a data viewer to see what output is generated.
 
-![Generated output](images/image_10.png)From here you can manipulate the data, and pipe it to your dimension table from within the pipeline.
+![Generated output](image_10.png)From here you can manipulate the data, and pipe it to your dimension table from within the pipeline.
 
 [DateSourceSample.zip (27.08 KB)](http://sdrv.ms/1cAOfCU "Date Source Sample Code")
