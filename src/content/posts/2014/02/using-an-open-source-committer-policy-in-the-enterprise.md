@@ -8,7 +8,7 @@ tags:
   - "code-reviews"
 ---
 
-![Southbourne Beach](http://jamessnape.files.wordpress.com/2014/02/12467521734_d2293e9855_z.jpg?w=300)How would you change your behaviour if the person reviewing your code had the final say on whether it makes it into the source repository?
+![Southbourne Beach](./images/12467521734_d2293e9855_z.jpg)How would you change your behaviour if the person reviewing your code had the final say on whether it makes it into the source repository?
 
 I often see code reviews done in principle but not practice. The workflow goes something like this:
 

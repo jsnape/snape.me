@@ -11,7 +11,7 @@ tags:
   - "tableau-customer-conference"
 ---
 
-[![](http://jamessnape.files.wordpress.com/2013/06/viz.png?w=300)](http://jamessnape.files.wordpress.com/2013/06/viz.png)This week has been dominated by the [Tableau Customer Conference](http://conference.tableausoftware.com/eu/2013/). I was fortunate to get a ticket since it was sold out but one of our architects couldn’t go so I filled in. I’m glad I did.
+[![](/images/viz.png)](http://jamessnape.files.wordpress.com/2013/06/viz.png)This week has been dominated by the [Tableau Customer Conference](http://conference.tableausoftware.com/eu/2013/). I was fortunate to get a ticket since it was sold out but one of our architects couldn’t go so I filled in. I’m glad I did.
 
 It’s been a while since I got to learn about a completely new technology so it is a refreshing change to be a bit of a novice. After a number of Microsoft conferences this one felt quite different too – less geeky with a more mixed crowd. It was interesting to be able to talk with non-technical types such as data analysts, business managers and statisticians.
 
