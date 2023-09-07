@@ -1,15 +1,20 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import { getCollection } from 'astro:content';
-import BlogPost from '../components/BlogPost.astro';
-const allPosts = await getCollection('posts');
+import { getCollection } from "astro:content";
 
+import BlogYear from "@components/BlogYear.astro";
+const allPosts = await getCollection("posts");
+const postYears = allPosts
+	.map(p => p.data.postDate.getFullYear())
+	.sort((x,y) => y - x)
+	.filter((v, i, s) => s.indexOf(v) === i);
 const pageTitle = "Home Page";
 ---
+
 <BaseLayout pageTitle={pageTitle}>
-	<h1>{pageTitle}</h1>
-	<ul>
-		{allPosts.map((post) => <BlogPost url={post.slug} title={post.data.title} />)}
-	  </ul>
+  <h1>{pageTitle}</h1>
+  <ul>
+	{postYears.map(y => <BlogYear year={y}/>)}
+  </ul>
 </BaseLayout>
