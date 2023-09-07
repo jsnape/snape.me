@@ -9,7 +9,7 @@ tags:
   - "stakeholders"
 ---
 
-[![mental-health-orgchart](images/mental-health-orgchart_thumb.png "mental-health-orgchart")](http://jamessnape.files.wordpress.com/2013/04/mental-health-orgchart.png)I want to briefly wrap up the section on stakeholders specific to mental health services because this is where we will get our requirements from.
+[![mental-health-orgchart](./mental-health-orgchart_thumb.png "mental-health-orgchart")](http://jamessnape.files.wordpress.com/2013/04/mental-health-orgchart.png)I want to briefly wrap up the section on stakeholders specific to mental health services because this is where we will get our requirements from.
 
 At the top of the organisation is the chief executive and the trust board. Below her are the IT director, medical director, nursing director and three operational directors who are responsible for [Child and Adolescent Mental Health Services](http://en.wikipedia.org/wiki/Child_and_Adolescent_Mental_Health_Services "Child and Adolescent Mental Health Services") (CAMHS), Adult Mental Health Services and Geriatric Mental Health Services respectively.
 

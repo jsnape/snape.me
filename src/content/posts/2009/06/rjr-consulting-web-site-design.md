@@ -4,9 +4,7 @@ postDate: 2009-06-05
 tags: 
   - "web-design"
 ---
-import { Image } from 'astro:assets';
-
-![RJR Consulting Thumbnail](@assets/images/rjrwebdesign_3.png "Thumb")
+![RJR Consulting Thumbnail](./rjrwebdesign_3.png)
 Over the past few weeks I’ve been working on a web site for my cousin. This was a ground up redesign of his company web to replace the old SEO unfriendly Flash site.
 
 Normally as the developer I only get someone else's completed design; I just do the implementation but I wanted to see if any of my recent photography and image editing skills were transferable.

@@ -21,7 +21,7 @@ The context for this architecture is purely my own since there are no real custo
 
 The diagram below is a pretty standard set of data warehouse components. If you are a traditional Microsoft guy then, from left to right, the components would be [Integration Services](http://en.wikipedia.org/wiki/SQL_Server_Integration_Services "SQL Server Integration Services"), [SQL Server](http://www.microsoft.com/sqlserver "Microsoft SQL Server"), Integration Services again, SQL Server, [Analysis Services](http://technet.microsoft.com/en-us/sqlserver/cc510300.aspx "Microsoft Analysis Services") and Excel or Reporting Services respectively. Alternatively you might be using [Hadoop](http://hadoop.apache.org/ "Hadoop") as the source mirror and [Tableau](http://www.tableausoftware.com/) for the data mart and consume components or some other combination.
 
-![architecture](images/architecture.png "architecture")
+![architecture](./architecture.png "architecture")
 
 I always try to set firewalls within an architecture so that any problems can be isolated and replaced without too much disruption. In this instance I’m going to use those firewalls so that I can try out new ideas and technologies.
 

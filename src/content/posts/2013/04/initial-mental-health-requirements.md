@@ -10,7 +10,7 @@ tags:
   - "user-story"
 ---
 
-\[caption id="" align="alignright" width="300"\][![Torbay Hospital In-patient wards and ...](images/300px-Torbay_Hospital_-_geograph.org.uk_-_1416979.jpg "Torbay Hospital In-patient wards and ...")](http://commons.wikipedia.org/wiki/File:Torbay_Hospital_-_geograph.org.uk_-_1416979.jpg) Torbay Hospital In-patient wards and treatment centres for mental health patients on the west side of the complex. (Photo credit: Wikipedia)\[/caption\]
+[![Torbay Hospital In-patient wards and ...](./300px-Torbay_Hospital_-_geograph.org.uk_-_1416979.jpg "Torbay Hospital In-patient wards and ...")](http://commons.wikipedia.org/wiki/File:Torbay_Hospital_-_geograph.org.uk_-_1416979.jpg) Torbay Hospital In-patient wards and treatment centres for mental health patients on the west side of the complex. (Photo credit: Wikipedia)\[/caption\]
 
 The previous couple of posts in this category haven’t exactly been exciting but they are important for context. Now things can concentrate more on the solution we are going to create.
 

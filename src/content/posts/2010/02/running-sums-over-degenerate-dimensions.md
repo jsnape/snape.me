@@ -7,7 +7,7 @@ tags:
   - "mdx"
 ---
 
-![Running Sum Over Degenerate Dimension](http://jamessnape.files.wordpress.com/2014/01/image_6.png?w=300)
+![Running Sum Over Degenerate Dimension](./image_6.png)
 
 Asking for a running sum in a report is a common thing but this week I was asked to create a running sum for a particular customer against number of facts. What I mean here is to create a graph of count vs amount (sort of like a Pareto except in transaction order). So something that looks like graph above.
 
@@ -67,7 +67,7 @@ This is OK for AdventureWorks but my real degenerate dimension has many millions
 
 I needed a way of generating the running count for the x-axis in a way that uses Analysis Services’ excellent aggregation ability.
 
-![Bucket Hierarchy](images/image_8.png)The solution I ended up with is to create an artificial hierarchy and bucket transactions. That way I can create an attribute relation for aggregation and, importantly, control the number of cells in the iteration.
+![Bucket Hierarchy](./image_8.png)The solution I ended up with is to create an artificial hierarchy and bucket transactions. That way I can create an attribute relation for aggregation and, importantly, control the number of cells in the iteration.
 
 The next problem was how to assign values to this bucket – some customers had only a few transactions yet others had millions. They all needed to be spread over a fixed set of buckets.
 
