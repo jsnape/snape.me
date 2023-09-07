@@ -1,9 +1,9 @@
 ---
-const { year } = Astro.props;
-
 import BlogPost from "../components/BlogPost.astro";
 import { getCollection } from "astro:content";
-const posts = await getCollection("posts", ({data}) => {return data.postDate.getFullYear() === year});
+
+const { year } = Astro.props;
+const posts = await getCollection("posts", ({data}) => data.postDate.getFullYear() === year);
 ---
 <h2>{year}</h2>
 {posts.map((p) =>
